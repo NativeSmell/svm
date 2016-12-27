@@ -1,0 +1,26 @@
+//////////////////////////////////////////////////////
+Learning 1 classifier!
+0classifier iterNum = 28	:	Learn_Time = 493
+1classifier iterNum = 20	:	Learn_Time = 280
+2classifier iterNum = 10	:	Learn_Time = 163
+3classifier iterNum = 23	:	Learn_Time = 384
+4classifier iterNum = 16	:	Learn_Time = 649
+5classifier iterNum = 7	:	Learn_Time = 258
+6classifier iterNum = 14	:	Learn_Time = 481
+7classifier iterNum = 23	:	Learn_Time = 770
+8classifier iterNum = 18	:	Learn_Time = 789
+9classifier iterNum = 25	:	Learn_Time = 1104
+Work time: 12299
+//////////////////////////////////////////////////////
+Learning 1 classifier!
+0classifier iterNum = 28	:	Learn_Time = 541
+1classifier iterNum = 20	:	Learn_Time = 306
+2classifier iterNum = 10	:	Learn_Time = 191
+3classifier iterNum = 23	:	Learn_Time = 425
+4classifier iterNum = 16	:	Learn_Time = 727
+5classifier iterNum = 7	:	Learn_Time = 280
+6classifier iterNum = 14	:	Learn_Time = 519
+7classifier iterNum = 23	:	Learn_Time = 826
+8classifier iterNum = 18	:	Learn_Time = 803
+9classifier iterNum = 25	:	Learn_Time = 1109
+Work time: 12970

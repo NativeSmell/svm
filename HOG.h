@@ -2,7 +2,7 @@
 #define HOG_H_INCLUDED
 
 #include "Attributes.h"
-#include <cmath>
+#include <math.h>
 
 class cell{
 public:

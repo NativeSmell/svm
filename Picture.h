@@ -4,6 +4,9 @@
 #include <iostream>
 #include <vector>
 #include <omp.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdlib.h>
 
 using std::cout;
 using std::vector;

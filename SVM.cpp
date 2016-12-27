@@ -4,13 +4,13 @@
 void SVM::read(int N, int number){
 
 	char thisName[512];
-	sprintf(thisName, "SVMClassifiers\\%dClassifier.svm", number);
+	sprintf(thisName, "SVMClassifiers/%dClassifier.svm", number);
 
 	FILE *fp = fopen(thisName, "rb");
 
 	if (fp == nullptr){
 		cout << "Error, can not open " << thisName;
-		system("pause");
+		getchar();
 		exit(2);
 	}
 
@@ -39,13 +39,13 @@ void SVM::read(int N, int number){
 void SVM::readparam(int number){
 
 	char thisName[512];
-	sprintf(thisName, "SVMClassifiers\\%dClassifier.svm", number);
+	sprintf(thisName, "SVMClassifiers/%dClassifier.svm", number);
 
 	FILE *fp = fopen(thisName, "rb");
 
 	if (fp == nullptr){
 		cout << "Error, can not open " << thisName;
-		system("pause");
+		getchar();
 		exit(2);
 	}
 
@@ -62,13 +62,13 @@ void SVM::readparam(int number){
 void SVM::write(const int magicNumber){
 
 	char thisName[512];
-	sprintf(thisName, "SVMClassifiers\\%dClassifier.svm", magicNumber);
+	sprintf(thisName, "SVMClassifiers/%dClassifier.svm", magicNumber);
 
 	FILE *fp = fopen(thisName, "wb");
 
 	if (fp == nullptr){
 		cout << "Error, can not open " << thisName;
-		system("pause");
+		getchar();
 		exit(2);
 	}
 
@@ -167,12 +167,12 @@ void SVM::startLearning(int _C, double _Nu, size_t _learnSize, int magicNumber, 
 	base = mnist.getBase();
 
 	std::ofstream out, err, count;
-	out.open("log1.txt", std::ios::app);
-	count.open("LearnCount.txt");
+	out.open("logers/log1.txt", std::ios::app);
+	count.open("logers/LearnCount.txt");
 
 
 	char name[64];
-	sprintf(name, "%d_err.CSV", magicNumber);
+	sprintf(name, "logers/%d_err.CSV", magicNumber);
 	err.open(name);
 
 	int iter[10] = { 0x00 };
@@ -278,7 +278,7 @@ void SVM::startLearning(int _C, double _Nu, size_t _learnSize, int magicNumber, 
 	for (int i = 0; i < 10; i++)
 		out << i << "classifier" << " iterNum = " << iter[i] <<"	:	Learn_Time = " << iter_time[i] << std::endl;
 
-	out << "Work time: " << end_time - start_time << "\n//////////////////////////////////////////////////////\n";
+	out << "Work time: " << end_time - start_time << std::endl;
 	out.close();
 	count.close();
 	err.close();
@@ -296,7 +296,7 @@ void SVM::startValidation(int magicNumber, short features){
 	base = mnist.getBase();
 
 	std::ofstream out;
-	out.open("log.txt", std::ios::app);
+	out.open("logers/log.txt", std::ios::app);
 
 	if (!out.is_open()){
 		cout << "Error!";
@@ -313,7 +313,6 @@ void SVM::startValidation(int magicNumber, short features){
 	default:
 		break;
 	}
-
 	validationSize = learnSize < 35000 ? (int)(learnSize * 0.7) : base.size() - learnSize;
 	cout << "\nfeatures selection: " << attributes.at(0)->getName() << "\n";
 	for (int k = (int)base.size() - validationSize, proc = 0; k < base.size(); k++){
@@ -331,7 +330,6 @@ void SVM::startValidation(int magicNumber, short features){
 		x.push_back(Xi);
 
 	}
-
 	read((int)x.at(0)->mas.size(), magicNumber);
 
 	cout << "\nStart validation\n";
@@ -405,7 +403,7 @@ void SVM::startTest(int magicNumber, short features){
 	}
 
 	std::ofstream out;
-	out.open("log.txt", std::ios::app);
+	out.open("logers/log.txt", std::ios::app);
 
 	if (!out.is_open()){
 		cout << "Error!";

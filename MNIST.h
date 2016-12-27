@@ -87,12 +87,8 @@ public:
 				base.at(i)->setLabel((int)temp);
 
 				if (proc < 100 && ((int)((i * 100 / (number_of_images)) + 0.5)) == proc){
-					system("cls");
-					cout << "Reading MNIST. Please wait!" << std::endl << "\t";
-					for (int x = 0; x < proc; x += 5)
-						cout << (char)254;
+					cout <<"\t" << proc << "% Reading MNIST. Please wait!" << std::endl;
 					proc += 5;
-					cout << " " << proc << "%";
 				}
 			}
 		}
