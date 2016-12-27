@@ -28,7 +28,7 @@ This tool takes 8 arguments of command line:
  
 Example:
  
-      Windows: start SVM_Learn.exe MNIST/ SVMClassifiers/ 25 0.0075 38000 1 2 15
+      Windows: start SVM_Learn.exe MNIST/ SVMClassifiers/ 25 0.0075 38000 1 2 15
     
       Linux: svm /home/home_pc/data/MNIST/ /home/home_pc/data/SVMClassifiers/ 25 0.0075 38000 1 2 15
 
