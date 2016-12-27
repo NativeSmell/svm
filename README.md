@@ -38,4 +38,3 @@ To learn and test SVM with HOG method (15 intervals for quantization) on 380000 
      
 To learn and test SVM with standart picture Palette on 380000 pictures of handwritten digits and with step of gradient equels 0.075
 
-
