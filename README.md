@@ -16,11 +16,12 @@ This tool takes 7 arguments of command lime:
  7) If you using HOG - you must specify the number of intervals for quantization
  
  
- Example for Windows:
-    start SVM_Learn.exe MNIST\ 25 0.0075 38000 1 2 15
+Example for Windows:
+ 
+start SVM_Learn.exe MNIST\ 25 0.0075 38000 1 2 15
    
-    to learn and test SVM with HOG method (15 intervals for quantization) on 380000 pictures of handwritten digits and with step of gradient equels 0.075
+To learn and test SVM with HOG method (15 intervals for quantization) on 380000 pictures of handwritten digits and with step of gradient equels 0.075
     
-    start SVM_Learn.exe MNIST\ 25 0.0075 38000 1 1 0
+start SVM_Learn.exe MNIST\ 25 0.0075 38000 1 1 0
      
-     to learn and test SVM with standart picture Palette on 380000 pictures of handwritten digits and with step of gradient equels 0.075
+To learn and test SVM with standart picture Palette on 380000 pictures of handwritten digits and with step of gradient equels 0.075
