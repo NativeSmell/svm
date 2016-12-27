@@ -6,8 +6,8 @@
 class Palette : public Attributes {
 
 public:
-	Palette(Picture* picture) : Attributes(picture) { name = "Palette"; }
-	Palette(){ name = "Palette"; }
+	Palette(Picture* picture) : Attributes(picture) { name = (char*)"Palette"; }
+	Palette(){ name = (char*)"Palette"; }
 
 	void calculateAttribure(){
 		int w = picture->getWidth();

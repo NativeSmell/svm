@@ -78,7 +78,7 @@ public:
 					}
 				}
 
-				MNISTpicture* buf = new MNISTpicture("mnist", n_rows, n_cols);
+				MNISTpicture* buf = new MNISTpicture((char*)"mnist", n_rows, n_cols);
 				buf->setPalette(tempPalette);
 				base.push_back(buf);
 

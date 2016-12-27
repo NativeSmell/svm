@@ -1,0 +1,8 @@
+Validation 1
+C - 25 Nu - 0.0075 learnSize - 1000 iterNum - 100000 validation size -  700 HOG - 15
+accuracy percent - 71.5714
+
+Testing 1
+C - 25 Nu - 0.0075 learnSize - 1000 iterNum - 100000 Test size -  10000HOG -15
+accuracy percent - 69.77
+

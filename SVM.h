@@ -53,12 +53,11 @@ private:
 	int magicNumber;
 
 	char* path;
+	char* path_to_classifire;
 
-
-	void calculateLNorm();
 	double calculateFy(vector<double>x, vector<double> omega);
 	void subGradient(vector<double> x, const int label);
-	void SVM::subGradient();
+	void subGradient();
 	double calculateFy(vector<double>x);
 	double sign(const double value);
 	void write(const int magicNumber);
@@ -67,7 +66,7 @@ private:
 
 public:
 
-	SVM(char* path) : path(path){ }
+	SVM(char* path, char* path_to_classifire) : path(path) , path_to_classifire(path_to_classifire){ }
 
 	~SVM(){}
 	

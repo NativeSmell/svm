@@ -1,0 +1,13 @@
+//////////////////////////////////////////////////////
+Learning 1 classifier!
+0classifier iterNum = 28	:	Learn_Time = 492
+1classifier iterNum = 20	:	Learn_Time = 354
+2classifier iterNum = 10	:	Learn_Time = 147
+3classifier iterNum = 23	:	Learn_Time = 464
+4classifier iterNum = 16	:	Learn_Time = 301
+5classifier iterNum = 7	:	Learn_Time = 151
+6classifier iterNum = 14	:	Learn_Time = 288
+7classifier iterNum = 23	:	Learn_Time = 481
+8classifier iterNum = 18	:	Learn_Time = 1344
+9classifier iterNum = 25	:	Learn_Time = 1835
+Work time: 12521

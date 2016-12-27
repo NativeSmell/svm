@@ -1,7 +1,17 @@
 cmake_minimum_required(VERSION 3.6)
-project(SVM)
+project(svm)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp SVM.cpp Attributes.h HOG.h MNIST.h MNISTpicture.h Palette.h Picture.h SVM.h)
-add_executable(SVM ${SOURCE_FILES})
+set(SOURCE_FILES
+    Attributes.h
+    HOG.h
+    main.cpp
+    MNIST.h
+    MNISTpicture.h
+    Palette.h
+    Picture.h
+    SVM.cpp
+    SVM.h)
+
+add_executable(svm ${SOURCE_FILES})

@@ -25,8 +25,8 @@ private:
 	int cell_size = 4;
 
 public:
-	HOG(Picture* picture, int bin) : Attributes(picture), bin(bin) { name = "HOG "; }
-	HOG(int bin) : bin(bin){ name = "HOG "; }
+	HOG(Picture* picture, int bin) : Attributes(picture), bin(bin) { name = (char*)"HOG "; }
+	HOG(int bin) : bin(bin){ name = (char*)"HOG "; }
 
 	void calculateAttribure(){
 

@@ -4,7 +4,7 @@
 void SVM::read(int N, int number){
 
 	char thisName[512];
-	sprintf(thisName, "SVMClassifiers/%dClassifier.svm", number);
+	sprintf(thisName, "%s%dClassifier.svm", path_to_classifire,number);
 
 	FILE *fp = fopen(thisName, "rb");
 
@@ -39,7 +39,7 @@ void SVM::read(int N, int number){
 void SVM::readparam(int number){
 
 	char thisName[512];
-	sprintf(thisName, "SVMClassifiers/%dClassifier.svm", number);
+	sprintf(thisName, "%s%dClassifier.svm",path_to_classifire ,number);
 
 	FILE *fp = fopen(thisName, "rb");
 
@@ -62,7 +62,7 @@ void SVM::readparam(int number){
 void SVM::write(const int magicNumber){
 
 	char thisName[512];
-	sprintf(thisName, "SVMClassifiers/%dClassifier.svm", magicNumber);
+	sprintf(thisName, "%s%dClassifier.svm",path_to_classifire, magicNumber);
 
 	FILE *fp = fopen(thisName, "wb");
 
@@ -167,13 +167,25 @@ void SVM::startLearning(int _C, double _Nu, size_t _learnSize, int magicNumber, 
 	base = mnist.getBase();
 
 	std::ofstream out, err, count;
-	out.open("logers/log1.txt", std::ios::app);
-	count.open("logers/LearnCount.txt");
 
+	char logName[512],lr_count[512], err_csv[512];
+	sprintf(logName, "%s/logs/log_learn.txt", path_to_classifire);
+	sprintf(lr_count, "%s/logs/LearnCount.txt", path_to_classifire);
+	sprintf(err_csv, "%s/logs/%d_err.CSV", path_to_classifire, magicNumber);
 
-	char name[64];
-	sprintf(name, "logers/%d_err.CSV", magicNumber);
-	err.open(name);
+	out.open(logName, std::ios::app);
+
+	if (!out.is_open()){
+		cout << "open log file Error!" << std::endl;
+	}
+	count.open(lr_count);
+	if (!count.is_open()){
+		cout << "open lr_count file Error!"<< std::endl;
+	}
+	err.open(err_csv);
+	if (!err.is_open()){
+		cout << "open err_csv file Error!"<< std::endl;
+	}
 
 	int iter[10] = { 0x00 };
 	int iter_time[10] = { 0x00 };
@@ -295,11 +307,14 @@ void SVM::startValidation(int magicNumber, short features){
 
 	base = mnist.getBase();
 
+	char logName[512];
+	sprintf(logName, "%s/logs/log.txt", path_to_classifire);
+
 	std::ofstream out;
-	out.open("logers/log.txt", std::ios::app);
+	out.open(logName, std::ios::app);
 
 	if (!out.is_open()){
-		cout << "Error!";
+		cout << "open log file Error!";
 	}
 	
 	readparam(magicNumber);
@@ -402,11 +417,14 @@ void SVM::startTest(int magicNumber, short features){
 		x.push_back(Xi);
 	}
 
+	char logName[512];
+	sprintf(logName, "%s/logs/log.txt", path_to_classifire);
+
 	std::ofstream out;
-	out.open("logers/log.txt", std::ios::app);
+	out.open(logName, std::ios::app);
 
 	if (!out.is_open()){
-		cout << "Error!";
+		cout << "open log file Error!";
 	}
 
 	read((int)x.at(0)->mas.size(), magicNumber);
