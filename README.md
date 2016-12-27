@@ -28,12 +28,12 @@ This tool takes 8 arguments of command lime:
  
 Example:
  
-    Windows: start SVM_Learn.exe MNIST\ 25 0.0075 38000 1 2 15
-    Linux: svm /home/home_pc/data/MNIST/ /home/home_pc/data/SVMClassifiers/ 25 0.0075 38000 1 2 15
+    Windows: start SVM_Learn.exe MNIST/ SVMClassifiers/ 25 0.0075 38000 1 2 15
+    Linux: svm /home/home_pc/data/MNIST/ /home/home_pc/data/SVMClassifiers/ 25 0.0075 38000 1 2 15
 
 To learn and test SVM with HOG method (15 intervals for quantization) on 380000 pictures of handwritten digits and with step of gradient equels 0.075
     
-    Windows: start SVM_Learn.exe MNIST\ 25 0.0075 38000 1 2 15
+    Windows: start SVM_Learn.exe MNIST/ SVMClassifiers/ 25 0.0075 38000 1 2 15
     Linux: svm /home/home_pc/data/MNIST/ /home/home_pc/data/SVMClassifiers/ 25 0.0075 38000 1 2 15
      
 To learn and test SVM with standart picture Palette on 380000 pictures of handwritten digits and with step of gradient equels 0.075
