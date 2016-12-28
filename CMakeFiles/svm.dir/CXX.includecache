@@ -1,0 +1,72 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/home_pc/Локальный диск/svm/Attributes.h
+Picture.h
+/media/home_pc/Локальный диск/svm/Picture.h
+
+/media/home_pc/Локальный диск/svm/HOG.h
+Attributes.h
+/media/home_pc/Локальный диск/svm/Attributes.h
+math.h
+-
+
+/media/home_pc/Локальный диск/svm/MNIST.h
+MNISTpicture.h
+/media/home_pc/Локальный диск/svm/MNISTpicture.h
+vector
+/media/home_pc/Локальный диск/svm/vector
+fstream
+-
+
+/media/home_pc/Локальный диск/svm/MNISTpicture.h
+Picture.h
+/media/home_pc/Локальный диск/svm/Picture.h
+
+/media/home_pc/Локальный диск/svm/Palette.h
+Attributes.h
+/media/home_pc/Локальный диск/svm/Attributes.h
+
+/media/home_pc/Локальный диск/svm/Picture.h
+iostream
+-
+vector
+-
+omp.h
+-
+stdlib.h
+-
+string.h
+-
+stdlib.h
+-
+
+/media/home_pc/Локальный диск/svm/SVM.cpp
+SVM.h
+/media/home_pc/Локальный диск/svm/SVM.h
+fstream
+-
+
+/media/home_pc/Локальный диск/svm/SVM.h
+HOG.h
+/media/home_pc/Локальный диск/svm/HOG.h
+Palette.h
+/media/home_pc/Локальный диск/svm/Palette.h
+Picture.h
+/media/home_pc/Локальный диск/svm/Picture.h
+iostream
+-
+MNIST.h
+/media/home_pc/Локальный диск/svm/MNIST.h
+ctime
+-
+
+/media/home_pc/Локальный диск/svm/main.cpp
+SVM.h
+/media/home_pc/Локальный диск/svm/SVM.h
+

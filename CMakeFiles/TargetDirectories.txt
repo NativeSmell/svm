@@ -1,0 +1,3 @@
+/media/home_pc/Локальный диск/svm/CMakeFiles/edit_cache.dir
+/media/home_pc/Локальный диск/svm/CMakeFiles/rebuild_cache.dir
+/media/home_pc/Локальный диск/svm/CMakeFiles/svm.dir
