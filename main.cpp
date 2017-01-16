@@ -25,5 +25,7 @@ int main(int argc, char *argv[]){
                 cout << "Done!";
             }
         }
+	
+	cout << std::endl;
 	return 0;
 }
