@@ -404,6 +404,12 @@ void SVM::startTest(int magicNumber, short features){
 		X* Xi = new X();
 		Xi->mas.push_back(1.0);
 		Xi->mark = base.at(k)->getLabel();
+
+		//char thisName[512];
+		//sprintf(thisName, "%s/mnist_example/%d_%d.bmp", path,k, base.at(k)->getLabel());
+
+		//base.at(k)->save(path,thisName);
+
 		for (int i = 0; i < attributes.size(); i++){
 			attributes.at(i)->setPicture(base.at(k));
 			attributes.at(i)->calculateAttribure();
@@ -446,7 +452,6 @@ void SVM::startTest(int magicNumber, short features){
 
 		if (result != x.at(k)->mark)
 			P++;
-
 	}
 
 	P /= (double)x.size();
@@ -458,4 +463,52 @@ void SVM::startTest(int magicNumber, short features){
 		<< (1 - P) * 100 << std::endl << std::endl;
 
 	out.close();
+}
+
+
+void SVM::checkClassifier(int magicNumber, short features, char* path_to_image) {
+
+	readparam(magicNumber);
+
+	Picture* picture = new Picture();
+
+	picture->load_bmp(path_to_image);
+
+	switch (features) {
+		case 1:
+			attributes.push_back(new Palette());
+		case 2:
+			attributes.push_back(new HOG(bin));
+		default:
+			break;
+	}
+
+	cout << "\nfeatures selection: " << attributes.at(0)->getName() << "\n";
+
+	X *Xi = new X();
+	Xi->mas.push_back(1.0);
+	for (int i = 0; i < attributes.size(); i++) {
+		attributes.at(i)->setPicture(picture);
+		attributes.at(i)->calculateAttribure();
+		for (int j = 0; j < attributes.at(i)->getAttribure().size(); j++) {
+			Xi->mas.push_back(attributes.at(i)->getAttribure().at(j));
+		}
+
+		attributes.at(i)->clear();
+	}
+	read(Xi->mas.size(), magicNumber);
+
+
+	for (int cl = 0; cl < 10; cl++)
+		classifier.at(cl)->result = calculateFy(classifier.at(cl)->omega, Xi->mas);
+
+	int result = 0;
+	double max = classifier.at(0)->result;
+
+	for (int i = 1; i < 10; i++){
+		max < classifier.at(i)->result ? max = classifier.at(i)->result, result = i : 0;
+	}
+
+	cout << "It'is - " << result;
+
 }

@@ -25,6 +25,8 @@ fstream
 -
 
 /media/home_pc/Локальный диск/svm/MNISTpicture.h
+stdlib.h
+-
 Picture.h
 /media/home_pc/Локальный диск/svm/Picture.h
 
@@ -67,6 +69,8 @@ ctime
 -
 
 /media/home_pc/Локальный диск/svm/main.cpp
+stdlib.h
+-
 SVM.h
 /media/home_pc/Локальный диск/svm/SVM.h
 

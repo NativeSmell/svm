@@ -68,7 +68,7 @@ public:
 			for (int i = 0, proc = 0; i < number_of_images; ++i)
 			{
 				RGBTRIPLE* tempPalette = new RGBTRIPLE[n_rows*n_cols];
-				for (int r = 0; r < n_rows; ++r)
+				for (int r = n_rows-1; r >=0 ; --r)
 				{
 					for (int c = 0; c < n_cols; ++c)
 					{
@@ -79,6 +79,8 @@ public:
 				}
 
 				MNISTpicture* buf = new MNISTpicture((char*)"mnist", n_rows, n_cols);
+
+
 				buf->setPalette(tempPalette);
 				base.push_back(buf);
 

@@ -67,6 +67,8 @@ private:
 public:
 
 	SVM(char* path, char* path_to_classifire) : path(path) , path_to_classifire(path_to_classifire){ }
+	SVM(char* path_to_classifire) : path_to_classifire(path_to_classifire){}
+
 
 	~SVM(){}
 	
@@ -84,7 +86,7 @@ public:
 	void startLearning(int _C, double _Nu, size_t _learnSize, int magicNumber, short features, size_t _bin);
 	void startValidation(int magicNumber, short features);
 	void startTest(int magicNumber, short features);
-	void checkClassifier(int magicNumber, short features);
+	void checkClassifier(int magicNumber, short features, char* path_to_image);
 };
 
 #endif // SVM_H_INCLUDED
