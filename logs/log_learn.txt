@@ -1,0 +1,390 @@
+//////////////////////////////////////////////////////
+Learning 1 classifier!
+0classifier iterNum = 9	:	Learn_Time = 579248
+1classifier iterNum = 16	:	Learn_Time = 974648
+2classifier iterNum = 4	:	Learn_Time = 273542
+3classifier iterNum = 8	:	Learn_Time = 487795
+4classifier iterNum = 13	:	Learn_Time = 757306
+5classifier iterNum = 5	:	Learn_Time = 333077
+6classifier iterNum = 18	:	Learn_Time = 1028178
+7classifier iterNum = 9	:	Learn_Time = 545053
+8classifier iterNum = 24	:	Learn_Time = 1362985
+9classifier iterNum = 22	:	Learn_Time = 1264318
+Work time: 9374924
+//////////////////////////////////////////////////////
+Learning 1 classifier!
+0classifier iterNum = 9	:	Learn_Time = 544364
+1classifier iterNum = 16	:	Learn_Time = 924259
+2classifier iterNum = 4	:	Learn_Time = 273851
+3classifier iterNum = 8	:	Learn_Time = 488782
+4classifier iterNum = 13	:	Learn_Time = 758809
+5classifier iterNum = 5	:	Learn_Time = 328601
+6classifier iterNum = 18	:	Learn_Time = 1027029
+7classifier iterNum = 9	:	Learn_Time = 547173
+8classifier iterNum = 24	:	Learn_Time = 1353770
+9classifier iterNum = 22	:	Learn_Time = 1251639
+Work time: 9265088
+//////////////////////////////////////////////////////
+Learning 1 classifier!
+0classifier iterNum = 107	:	Learn_Time = 218680082
+1classifier iterNum = 15	:	Learn_Time = 32360682
+2classifier iterNum = 50	:	Learn_Time = 103260244
+3classifier iterNum = 41	:	Learn_Time = 85122692
+4classifier iterNum = 41	:	Learn_Time = 85085645
+5classifier iterNum = 31	:	Learn_Time = 64778485
+6classifier iterNum = 11	:	Learn_Time = 24296114
+7classifier iterNum = 28	:	Learn_Time = 58731873
+8classifier iterNum = 141	:	Learn_Time = 297638587
+9classifier iterNum = 60	:	Learn_Time = 126578300
+Work time: 1123003489
+//////////////////////////////////////////////////////
+Learning 1 classifier!
+0classifier iterNum = 107	:	Learn_Time = 220769994
+1classifier iterNum = 15	:	Learn_Time = 32555262
+2classifier iterNum = 50	:	Learn_Time = 103875123
+3classifier iterNum = 41	:	Learn_Time = 85788518
+4classifier iterNum = 41	:	Learn_Time = 85656717
+5classifier iterNum = 31	:	Learn_Time = 65446654
+6classifier iterNum = 11	:	Learn_Time = 24505919
+7classifier iterNum = 28	:	Learn_Time = 59241122
+8classifier iterNum = 141	:	Learn_Time = 290545232
+9classifier iterNum = 60	:	Learn_Time = 124900238
+Work time: 1120294691
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44090
+1classifier iterNum = 6	:	Learn_Time = 38731
+2classifier iterNum = 3	:	Learn_Time = 21840
+3classifier iterNum = 5	:	Learn_Time = 32750
+4classifier iterNum = 1	:	Learn_Time = 10713
+5classifier iterNum = 4	:	Learn_Time = 27232
+6classifier iterNum = 1	:	Learn_Time = 11049
+7classifier iterNum = 0	:	Learn_Time = 5792
+8classifier iterNum = 2	:	Learn_Time = 16163
+9classifier iterNum = 4	:	Learn_Time = 27607
+Work time: 1341851
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44270
+1classifier iterNum = 6	:	Learn_Time = 38760
+2classifier iterNum = 3	:	Learn_Time = 21831
+3classifier iterNum = 5	:	Learn_Time = 32906
+4classifier iterNum = 1	:	Learn_Time = 10762
+5classifier iterNum = 4	:	Learn_Time = 27402
+6classifier iterNum = 1	:	Learn_Time = 11189
+7classifier iterNum = 0	:	Learn_Time = 5725
+8classifier iterNum = 2	:	Learn_Time = 16191
+9classifier iterNum = 4	:	Learn_Time = 27675
+Work time: 1367901
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 46849
+1classifier iterNum = 6	:	Learn_Time = 39407
+2classifier iterNum = 3	:	Learn_Time = 22257
+3classifier iterNum = 5	:	Learn_Time = 34178
+4classifier iterNum = 1	:	Learn_Time = 11548
+5classifier iterNum = 4	:	Learn_Time = 29238
+6classifier iterNum = 1	:	Learn_Time = 11542
+7classifier iterNum = 0	:	Learn_Time = 5900
+8classifier iterNum = 2	:	Learn_Time = 16492
+9classifier iterNum = 4	:	Learn_Time = 28123
+Work time: 1338870
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44036
+1classifier iterNum = 6	:	Learn_Time = 38714
+2classifier iterNum = 3	:	Learn_Time = 21690
+3classifier iterNum = 5	:	Learn_Time = 33123
+4classifier iterNum = 1	:	Learn_Time = 11124
+5classifier iterNum = 4	:	Learn_Time = 27707
+6classifier iterNum = 1	:	Learn_Time = 11178
+7classifier iterNum = 0	:	Learn_Time = 5814
+8classifier iterNum = 2	:	Learn_Time = 16366
+9classifier iterNum = 4	:	Learn_Time = 28033
+Work time: 1305577
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 48480
+1classifier iterNum = 6	:	Learn_Time = 41744
+2classifier iterNum = 3	:	Learn_Time = 23280
+3classifier iterNum = 5	:	Learn_Time = 34600
+4classifier iterNum = 1	:	Learn_Time = 11294
+5classifier iterNum = 4	:	Learn_Time = 28372
+6classifier iterNum = 1	:	Learn_Time = 11969
+7classifier iterNum = 0	:	Learn_Time = 6150
+8classifier iterNum = 2	:	Learn_Time = 17363
+9classifier iterNum = 4	:	Learn_Time = 30049
+Work time: 1329698
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44558
+1classifier iterNum = 6	:	Learn_Time = 38824
+2classifier iterNum = 3	:	Learn_Time = 22130
+3classifier iterNum = 5	:	Learn_Time = 33855
+4classifier iterNum = 1	:	Learn_Time = 11217
+5classifier iterNum = 4	:	Learn_Time = 27906
+6classifier iterNum = 1	:	Learn_Time = 11028
+7classifier iterNum = 0	:	Learn_Time = 5770
+8classifier iterNum = 2	:	Learn_Time = 16425
+9classifier iterNum = 4	:	Learn_Time = 27653
+Work time: 1320582
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44092
+1classifier iterNum = 6	:	Learn_Time = 38784
+2classifier iterNum = 3	:	Learn_Time = 21686
+3classifier iterNum = 5	:	Learn_Time = 32947
+4classifier iterNum = 1	:	Learn_Time = 10963
+5classifier iterNum = 4	:	Learn_Time = 28073
+6classifier iterNum = 1	:	Learn_Time = 11077
+7classifier iterNum = 0	:	Learn_Time = 5810
+8classifier iterNum = 2	:	Learn_Time = 16522
+9classifier iterNum = 4	:	Learn_Time = 27898
+Work time: 1303328
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44087
+1classifier iterNum = 6	:	Learn_Time = 38795
+2classifier iterNum = 3	:	Learn_Time = 22418
+3classifier iterNum = 5	:	Learn_Time = 33387
+4classifier iterNum = 1	:	Learn_Time = 10853
+5classifier iterNum = 4	:	Learn_Time = 27505
+6classifier iterNum = 1	:	Learn_Time = 11149
+7classifier iterNum = 0	:	Learn_Time = 5748
+8classifier iterNum = 2	:	Learn_Time = 16336
+9classifier iterNum = 4	:	Learn_Time = 27645
+Work time: 1307615
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 43945
+1classifier iterNum = 6	:	Learn_Time = 39160
+2classifier iterNum = 3	:	Learn_Time = 22516
+3classifier iterNum = 5	:	Learn_Time = 33234
+4classifier iterNum = 1	:	Learn_Time = 11270
+5classifier iterNum = 4	:	Learn_Time = 28474
+6classifier iterNum = 1	:	Learn_Time = 11277
+7classifier iterNum = 0	:	Learn_Time = 5851
+8classifier iterNum = 2	:	Learn_Time = 16690
+9classifier iterNum = 4	:	Learn_Time = 28043
+Work time: 1311093
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 43940
+1classifier iterNum = 6	:	Learn_Time = 38852
+2classifier iterNum = 3	:	Learn_Time = 21805
+3classifier iterNum = 5	:	Learn_Time = 32930
+4classifier iterNum = 1	:	Learn_Time = 10996
+5classifier iterNum = 4	:	Learn_Time = 27906
+6classifier iterNum = 1	:	Learn_Time = 11217
+7classifier iterNum = 0	:	Learn_Time = 5851
+8classifier iterNum = 2	:	Learn_Time = 16287
+9classifier iterNum = 4	:	Learn_Time = 27752
+Work time: 1305475
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44040
+1classifier iterNum = 6	:	Learn_Time = 38946
+2classifier iterNum = 3	:	Learn_Time = 22531
+3classifier iterNum = 5	:	Learn_Time = 33653
+4classifier iterNum = 1	:	Learn_Time = 11025
+5classifier iterNum = 4	:	Learn_Time = 27393
+6classifier iterNum = 1	:	Learn_Time = 11144
+7classifier iterNum = 0	:	Learn_Time = 5806
+8classifier iterNum = 2	:	Learn_Time = 16139
+9classifier iterNum = 4	:	Learn_Time = 27533
+Work time: 1308133
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44083
+1classifier iterNum = 6	:	Learn_Time = 39379
+2classifier iterNum = 3	:	Learn_Time = 21818
+3classifier iterNum = 5	:	Learn_Time = 33326
+4classifier iterNum = 1	:	Learn_Time = 11118
+5classifier iterNum = 4	:	Learn_Time = 28151
+6classifier iterNum = 1	:	Learn_Time = 11425
+7classifier iterNum = 0	:	Learn_Time = 6124
+8classifier iterNum = 2	:	Learn_Time = 16900
+9classifier iterNum = 4	:	Learn_Time = 28476
+Work time: 1306867
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 47477
+1classifier iterNum = 6	:	Learn_Time = 42137
+2classifier iterNum = 3	:	Learn_Time = 23472
+3classifier iterNum = 5	:	Learn_Time = 35414
+4classifier iterNum = 1	:	Learn_Time = 11612
+5classifier iterNum = 4	:	Learn_Time = 29411
+6classifier iterNum = 1	:	Learn_Time = 11825
+7classifier iterNum = 0	:	Learn_Time = 6159
+8classifier iterNum = 2	:	Learn_Time = 17405
+9classifier iterNum = 4	:	Learn_Time = 29826
+Work time: 1358233
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44195
+1classifier iterNum = 6	:	Learn_Time = 39107
+2classifier iterNum = 3	:	Learn_Time = 21813
+3classifier iterNum = 5	:	Learn_Time = 33299
+4classifier iterNum = 1	:	Learn_Time = 10997
+5classifier iterNum = 4	:	Learn_Time = 27688
+6classifier iterNum = 1	:	Learn_Time = 11220
+7classifier iterNum = 0	:	Learn_Time = 5850
+8classifier iterNum = 2	:	Learn_Time = 16343
+9classifier iterNum = 4	:	Learn_Time = 28069
+Work time: 1312228
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44180
+1classifier iterNum = 6	:	Learn_Time = 38723
+2classifier iterNum = 3	:	Learn_Time = 21741
+3classifier iterNum = 5	:	Learn_Time = 33313
+4classifier iterNum = 1	:	Learn_Time = 10964
+5classifier iterNum = 4	:	Learn_Time = 27695
+6classifier iterNum = 1	:	Learn_Time = 11105
+7classifier iterNum = 0	:	Learn_Time = 5942
+8classifier iterNum = 2	:	Learn_Time = 16296
+9classifier iterNum = 4	:	Learn_Time = 27935
+Work time: 1314560
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44951
+1classifier iterNum = 6	:	Learn_Time = 39415
+2classifier iterNum = 3	:	Learn_Time = 22210
+3classifier iterNum = 5	:	Learn_Time = 33902
+4classifier iterNum = 1	:	Learn_Time = 11277
+5classifier iterNum = 4	:	Learn_Time = 28599
+6classifier iterNum = 1	:	Learn_Time = 11492
+7classifier iterNum = 0	:	Learn_Time = 6233
+8classifier iterNum = 2	:	Learn_Time = 17025
+9classifier iterNum = 4	:	Learn_Time = 28955
+Work time: 3483709
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 45716
+1classifier iterNum = 6	:	Learn_Time = 40028
+2classifier iterNum = 3	:	Learn_Time = 22340
+3classifier iterNum = 5	:	Learn_Time = 33486
+4classifier iterNum = 1	:	Learn_Time = 11149
+5classifier iterNum = 4	:	Learn_Time = 27955
+6classifier iterNum = 1	:	Learn_Time = 11385
+7classifier iterNum = 0	:	Learn_Time = 5846
+8classifier iterNum = 2	:	Learn_Time = 17295
+9classifier iterNum = 4	:	Learn_Time = 29131
+Work time: 4151514
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 47759
+1classifier iterNum = 6	:	Learn_Time = 42003
+2classifier iterNum = 3	:	Learn_Time = 22648
+3classifier iterNum = 5	:	Learn_Time = 33820
+4classifier iterNum = 1	:	Learn_Time = 11168
+5classifier iterNum = 4	:	Learn_Time = 28200
+6classifier iterNum = 1	:	Learn_Time = 11457
+7classifier iterNum = 0	:	Learn_Time = 6103
+8classifier iterNum = 2	:	Learn_Time = 16991
+9classifier iterNum = 4	:	Learn_Time = 28851
+Work time: 4237920
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 7	:	Learn_Time = 44573
+1classifier iterNum = 6	:	Learn_Time = 38604
+2classifier iterNum = 3	:	Learn_Time = 21961
+3classifier iterNum = 5	:	Learn_Time = 33474
+4classifier iterNum = 1	:	Learn_Time = 11107
+5classifier iterNum = 4	:	Learn_Time = 27623
+6classifier iterNum = 1	:	Learn_Time = 11163
+7classifier iterNum = 0	:	Learn_Time = 5922
+8classifier iterNum = 2	:	Learn_Time = 16436
+9classifier iterNum = 4	:	Learn_Time = 28138
+Work time: 1336101
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 4	:	Learn_Time = 28336
+1classifier iterNum = 2	:	Learn_Time = 16889
+2classifier iterNum = 3	:	Learn_Time = 21911
+3classifier iterNum = 4	:	Learn_Time = 27914
+4classifier iterNum = 7	:	Learn_Time = 43020
+5classifier iterNum = 3	:	Learn_Time = 21668
+6classifier iterNum = 1	:	Learn_Time = 10943
+7classifier iterNum = 2	:	Learn_Time = 16481
+8classifier iterNum = 1	:	Learn_Time = 10706
+9classifier iterNum = 3	:	Learn_Time = 22874
+Work time: 1296230
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 4	:	Learn_Time = 27840
+1classifier iterNum = 2	:	Learn_Time = 17000
+2classifier iterNum = 3	:	Learn_Time = 21705
+3classifier iterNum = 4	:	Learn_Time = 28101
+4classifier iterNum = 7	:	Learn_Time = 43696
+5classifier iterNum = 3	:	Learn_Time = 22168
+6classifier iterNum = 1	:	Learn_Time = 11033
+7classifier iterNum = 2	:	Learn_Time = 16731
+8classifier iterNum = 1	:	Learn_Time = 10717
+9classifier iterNum = 3	:	Learn_Time = 22237
+Work time: 1298538
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 4	:	Learn_Time = 29070
+1classifier iterNum = 2	:	Learn_Time = 17870
+2classifier iterNum = 3	:	Learn_Time = 22870
+3classifier iterNum = 4	:	Learn_Time = 28850
+4classifier iterNum = 7	:	Learn_Time = 45238
+5classifier iterNum = 3	:	Learn_Time = 22869
+6classifier iterNum = 1	:	Learn_Time = 11153
+7classifier iterNum = 2	:	Learn_Time = 17320
+8classifier iterNum = 1	:	Learn_Time = 11283
+9classifier iterNum = 3	:	Learn_Time = 23179
+Work time: 1314995
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 4	:	Learn_Time = 30053
+1classifier iterNum = 2	:	Learn_Time = 18231
+2classifier iterNum = 3	:	Learn_Time = 23540
+3classifier iterNum = 4	:	Learn_Time = 29968
+4classifier iterNum = 7	:	Learn_Time = 46616
+5classifier iterNum = 3	:	Learn_Time = 23423
+6classifier iterNum = 1	:	Learn_Time = 11689
+7classifier iterNum = 2	:	Learn_Time = 17791
+8classifier iterNum = 1	:	Learn_Time = 11646
+9classifier iterNum = 3	:	Learn_Time = 24068
+Work time: 1346963
+//////////////////////////////////////////////////////
+Learning 10 classifier!
+0classifier iterNum = 4	:	Learn_Time = 30121
+1classifier iterNum = 2	:	Learn_Time = 18358
+2classifier iterNum = 3	:	Learn_Time = 23649
+3classifier iterNum = 4	:	Learn_Time = 30238
+4classifier iterNum = 7	:	Learn_Time = 46731
+5classifier iterNum = 3	:	Learn_Time = 23648
+6classifier iterNum = 1	:	Learn_Time = 11725
+7classifier iterNum = 2	:	Learn_Time = 17890
+8classifier iterNum = 1	:	Learn_Time = 11608
+9classifier iterNum = 3	:	Learn_Time = 24135
+Work time: 1366203
+//////////////////////////////////////////////////////
+Learning 101 classifier!
+0classifier iterNum = 15	:	Learn_Time = 877244
+1classifier iterNum = 21	:	Learn_Time = 1199531
+2classifier iterNum = 24	:	Learn_Time = 1366307
+3classifier iterNum = 12	:	Learn_Time = 718877
+4classifier iterNum = 17	:	Learn_Time = 993205
+5classifier iterNum = 16	:	Learn_Time = 936156
+6classifier iterNum = 16	:	Learn_Time = 930593
+7classifier iterNum = 22	:	Learn_Time = 1262293
+8classifier iterNum = 12	:	Learn_Time = 716901
+9classifier iterNum = 17	:	Learn_Time = 998300
+Work time: 11707138
+//////////////////////////////////////////////////////
+Learning 101 classifier!
+0classifier iterNum = 43	:	Learn_Time = 70637266
+1classifier iterNum = 24	:	Learn_Time = 40129457
+2classifier iterNum = 36	:	Learn_Time = 59513798
+3classifier iterNum = 25	:	Learn_Time = 41845979
+4classifier iterNum = 63	:	Learn_Time = 102812097
+5classifier iterNum = 50	:	Learn_Time = 81893262
+6classifier iterNum = 31	:	Learn_Time = 51460861
+7classifier iterNum = 36	:	Learn_Time = 59523191
+8classifier iterNum = 30	:	Learn_Time = 49924417
+9classifier iterNum = 64	:	Learn_Time = 104625883
+Work time: 683626552
